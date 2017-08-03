@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Secret Agent Supply Inc.</title>
-    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
     <link rel="stylesheet" href="resources/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
   </head>
   <body>
     <div class="logoBanner">
       <div class="container leftJus">
-        <img src="resources/images/logo.png" class="logoImg">
-        <h3>SECRET AGENT SUPPLY INC.</h3>
+        <img src="resources/images/logo.png" id="logoImg">
+        <h3 id="webName">SECRET AGENT SUPPLY INC.</h3>
       </div>
     </div>
     <div class="bigPicture">
@@ -23,14 +23,12 @@
     </div>
     <div class="navBar">
       <div class="container">
-        <ul>
-          <li>Eyewear</li>
-          <li>Apparel</li>
-          <li>Gadgets</li>
-          <li>Vehicles</li>
-          <li>Classes</li>
-          <li>Contact</li>
-        </ul>
+          <span class="navItem">Eyewear</span>
+          <span class="navItem">Apparel</span>
+          <span class="navItem">Gadgets</span>
+          <span class="navItem">Vehicles</span>
+          <span class="navItem">Classes</span>
+          <span class="navItem">Contact</span>
       </div>
     </div>
     <div class="products">
@@ -61,19 +59,21 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="location">
-        <p class="paraBox">Location</p>
-        <p>-47.346436, 84.32354</p>
-      </div>
-      <div class="hours">
-        <p class="paraBox">Hours</p>
-        <p>0800 - 1800</p>
+    <div class="locAndHour">
+      <div class="container">
+          <div class="location">
+            <p class="paraBox">Location</p>
+            <p class="numbers">-47.346436, 84.32354</p>
+          </div>
+          <div class="hours">
+            <p class="paraBox">Hours</p>
+            <p class="numbers">0800 - 1800</p>
+          </div>
       </div>
     </div>
     <div class="footer">
-      <div class="container">
-        <p>Copyright Secret Agent Supply Inc./</p>
+      <div class="container leftJus">
+        <p id="copyright">Copyright Secret Agent Supply Inc.</p>
       </div>
     </div>
   </body>
