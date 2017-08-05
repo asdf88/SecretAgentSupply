@@ -112,6 +112,10 @@ body {
   margin: 0;
 }
 
+.menuHide {
+  display: none;
+}
+
 .products {
   display: flex;
   justify-content: center;
@@ -152,7 +156,7 @@ body {
 .glassesImg img {
   width: 9rem;
   height: auto;
-  padding-top: 2.5rem; 
+  padding-top: 2.5rem;
 }
 
 .itemName {
@@ -221,4 +225,20 @@ body {
   font-family: Helvetica;
   font-size: 1rem;
   color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navItem {
+    display: none;
+  }
+  .menuHide {
+    display: block;
+    margin: 0 auto;
+  }
+  .hide {
+    display: none;
+  }
+  .imgBox {
+    width: 47%; 
+  }
 }
