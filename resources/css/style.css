@@ -239,6 +239,47 @@ body {
     display: none;
   }
   .imgBox {
-    width: 47%; 
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .bigPicture {
+    height: 15rem;
+    padding-top: 10rem;
+  }
+  .newInfo {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+  .newInfo h3 {
+    font-size: 0.77rem;
+    padding-bottom: 0.5rem;
+  }
+  .newInfo h1 {
+    font-size: 1rem;
+    padding: 0;
+  }
+  .hideToo {
+    display: none;
+  }
+  .imgBox {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .columnBox {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .location,
+  .hours {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+  }
+  #copyright {
+    margin: 0 auto;
   }
 }
